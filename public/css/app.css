@@ -1,0 +1,56 @@
+:root{
+    --main-color:maroon;
+}
+
+body{
+    font-family: serif;
+}
+
+main{
+    margin-top: 4rem;
+}
+.card{
+    margin: 10px auto;
+    text-align: center;
+    box-shadow: 0px 0px 3px rgb(104,104,104);
+    transition-duration: 900ms;
+}
+.card img{
+    height: 220px;
+    padding: 8px;
+}
+.card{
+    text-align: left;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.btn-outline-primary{
+    color: val(--main-color);
+}
+
+.btn-outline-primary:hover{
+    background-color: val(--main-color);
+}
+
+.fa-rupee-sign{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+
+.show-card{
+    width:25rem;
+}
+
+.show-card img{
+    height: 20rem;
+}
+
+@media screen and (max-width:400px){
+    .show-card{
+        width: 20rem;
+    }
+}
